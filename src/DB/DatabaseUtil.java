@@ -18,7 +18,6 @@ public class DatabaseUtil {
         Statement statement = connection.createStatement();
         return statement.executeQuery(query);
     }
-
     // Méthode pour fermer la connexio
     // n, la déclaration et le résultat
     public static void close(Connection connection, Statement statement, ResultSet resultSet) {
